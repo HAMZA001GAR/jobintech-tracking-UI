@@ -8,7 +8,7 @@ import { StepsComponent } from './ExpertDashboards/steps/steps.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
-import { ProgressCardComponent } from './ExpertDashboards/progress-card/progress-card.component';
+import { ProgressCardComponent } from './ExpertDashboards/steps-card/progress-card.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { TaskBoardComponent } from './ExpertDashboards/task-board/task-board.component';
 import { TaskCardComponent } from './ExpertDashboards/task-card/task-card.component';

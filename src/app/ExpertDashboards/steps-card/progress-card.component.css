@@ -1,4 +1,5 @@
 .progress-card {
+   cursor: pointer;
     padding: 20px;
   
     h2 {
