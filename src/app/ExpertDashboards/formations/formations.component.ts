@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Formation } from '../models/formation';
-import { FormationService } from '../services/formation/formation.service';
+import { Formation } from '../../models/formation';
+import { FormationService } from '../../services/formation/formation.service';
 import { Router } from '@angular/router';
 
 @Component({

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { StepsService } from '../services/steps/steps.service';
-import { Step } from '../models/step';
+import { StepsService } from '../../services/steps/steps.service';
+import { Step } from '../../models/step';
 
 @Component({
   selector: 'app-steps',
