@@ -13,6 +13,7 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { TaskBoardComponent } from './ExpertDashboards/task-board/task-board.component';
 import { TaskCardComponent } from './ExpertDashboards/task-card/task-card.component';
 import { EditStepComponent } from './ExpertDashboards/edit-step/edit-step.component';
+import { AddStepComponent } from './ExpertDashboards/add-step/add-step.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EditStepComponent } from './ExpertDashboards/edit-step/edit-step.compon
     HeaderComponent,
     TaskBoardComponent,
     TaskCardComponent,
-    EditStepComponent
+    EditStepComponent,
+    AddStepComponent
   ],
   imports: [
     BrowserModule,
