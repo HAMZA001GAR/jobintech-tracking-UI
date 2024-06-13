@@ -12,6 +12,7 @@ import { ProgressCardComponent } from './ExpertDashboards/progress-card/progress
 import { HeaderComponent } from './layouts/header/header.component';
 import { TaskBoardComponent } from './ExpertDashboards/task-board/task-board.component';
 import { TaskCardComponent } from './ExpertDashboards/task-card/task-card.component';
+import { EditStepComponent } from './ExpertDashboards/edit-step/edit-step.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TaskCardComponent } from './ExpertDashboards/task-card/task-card.compon
     ProgressCardComponent,
     HeaderComponent,
     TaskBoardComponent,
-    TaskCardComponent
+    TaskCardComponent,
+    EditStepComponent
   ],
   imports: [
     BrowserModule,
