@@ -15,6 +15,7 @@ import { TaskCardComponent } from './ExpertDashboards/task-card/task-card.compon
 import { EditStepComponent } from './ExpertDashboards/edit-step/edit-step.component';
 import { AddStepComponent } from './ExpertDashboards/add-step/add-step.component';
 import { ParcoursProgressComponent } from './StudentDashboards/parcours-progress/parcours-progress.component';
+import { StudentProfileComponent } from './StudentDashboards/student-profile/student-profile.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ParcoursProgressComponent } from './StudentDashboards/parcours-progress
     TaskCardComponent,
     EditStepComponent,
     AddStepComponent,
-    ParcoursProgressComponent
+    ParcoursProgressComponent,
+    StudentProfileComponent
   ],
   imports: [
     BrowserModule,
