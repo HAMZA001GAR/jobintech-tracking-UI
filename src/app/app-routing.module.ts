@@ -7,6 +7,7 @@ import { TaskBoardComponent } from './ExpertDashboards/task-board/task-board.com
 import { AddCategoryComponent } from './ExpertDashboards/add-category/add-category.component';
 import { EditStepComponent } from './ExpertDashboards/edit-step/edit-step.component';
 import { AddStepComponent } from './ExpertDashboards/add-step/add-step.component';
+import { ParcoursProgressComponent } from './StudentDashboards/parcours-progress/parcours-progress.component';
 
 const routes: Routes = [
   { path: 'formations', component: FormationsComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'add-category', component: AddCategoryComponent },
   { path: 'edit-step', component: EditStepComponent },
   { path: 'add-step', component: AddStepComponent },
-  { path: '', redirectTo: '/add-step', pathMatch: 'full' }
+  { path: 'parcours-progress', component: ParcoursProgressComponent },
+  { path: '', redirectTo: '/parcours-progress', pathMatch: 'full' }
 ];
 
 @NgModule({
